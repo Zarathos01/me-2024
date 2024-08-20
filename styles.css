@@ -180,37 +180,16 @@ nav {
     color: rgb(216, 216, 216);
     margin-top: 0;
     margin-bottom: 5px;
+    text-wrap: nowrap;
 }
 
-.search-filters {
-    width: 255px;
-    height: 47px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    background-color: rgba(252, 252, 252, 0.188);
-    margin-right: 20px;
-}
 
-.filters {
-    background-color: rgb(219, 219, 219);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: solid;
-    border-width: 1px;
-    border-color: rgb(0, 0, 0);
-    border-radius: 5px;
-    height: 35px;
-    width: 125px;
-    padding: 5px 8px 5px 8px;
-    outline: none;
-    cursor: pointer;
-}
 
 .desc {
     color: rgb(216, 216, 216);
     font-family: "bitter", serif;
     font-size: 17px;
+    text-wrap: nowrap;
 }
 
 .courses {
