@@ -1,0 +1,115 @@
+body {
+    background-image: url(background.jpeg);
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 242, 242);
+}
+
+
+.payment-card {
+    background-color: rgb(235, 235, 235);
+    width: 288px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter {
+    margin-bottom: 20px;
+    width: 255px;
+    height: 33px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(112, 112, 112);
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.p-title {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(99, 32, 186, 0.4);
+    margin-top: 6px;
+}
+
+.inputs {
+    margin-bottom: 20px;
+
+}
+
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(70, 70, 70);
+    margin-right: 5px;
+    margin-bottom: 3px;
+    display: block;
+}
+
+.text-box {
+    width: 250px;
+    height: 30px;
+    border-radius: 6px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(112, 112, 112);
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.text-box::placeholder {
+    padding-left: 3px;
+}
+
+
+.butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-button {
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(99, 32, 186);
+    color: white;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 13px;
+    font-weight: bold;
+    transition: background-color 0.15s, color 0.15s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+    cursor: pointer;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.d-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(99, 32, 186);
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(99, 32, 186);
+
+}
+
+.d-button:active {
+    background-color: rgb(164, 164, 164);
+}
