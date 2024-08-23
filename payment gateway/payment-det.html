@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>payment gateway</title>
+    <link rel="stylesheet" href="payment-det.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="payment-card">
+            <form action="payment" method="post">
+                <div class="p-title">Payment Details</div>
+                <div>
+                    <label for="filter" class="label">Choose the payment type:</label>
+                    <select class="filter" id="filter">
+                        <option value="all">Choose a type...</option>
+                        <option value="credit card">Credit Card</option>
+                        <option value="paypal">Paypal</option>
+                        <option value="telda">Telda</option>
+                    </select>
+                </div>
+                <div class="inputs">
+                    <label for="card-name" class="label">Cardholder Name:</label>
+                    <input type="text" class="text-box" id="card-name" placeholder="ex:mohamed ehab" required>
+                </div>
+                <div class="inputs">
+                    <label for="card-num" class="label">Card Number:</label>
+                    <input type="text" class="text-box" maxlength="16" id="card-num"
+                        placeholder="enter your card number" required>
+                </div>
+                <div class="inputs">
+                    <label for="ex-date" class="label">Expiry Date:</label>
+                    <input type="text" class="text-box" maxlength="5" id="ex-date" placeholder="MM/YY" required>
+                </div>
+                <div class="inputs">
+                    <label for="cvv-num" class="label">CVV:</label>
+                    <input type="text" class="text-box" id="cvv-num" maxlength="3" placeholder="123" required>
+                </div>
+                <div class="inputs">
+                    <label for="amount" class="label">The Amount:</label>
+                    <input type="text" class="text-box" id="amount" placeholder="5000$" required>
+                </div>
+                <div class="butt">
+                    <button class="d-button">Donate</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
