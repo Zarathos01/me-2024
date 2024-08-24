@@ -180,7 +180,10 @@ header {
 }
 
 .product-img {
-    width: 185px;
+    width: 182px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .wishlist {
